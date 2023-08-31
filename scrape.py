@@ -61,7 +61,7 @@ for container in containers:
     names.append(name)
     name = name.split(" ")
     first_names.append(name[0])
-    last_names.append(name[1])
+    last_names.append(name[-1])
 
 print(names)
 print(len(containers),len(names))
